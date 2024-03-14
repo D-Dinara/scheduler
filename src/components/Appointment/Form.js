@@ -25,7 +25,7 @@ export default function Form(props) {
       return;
     }
     if (!interviewer) {
-      setError("Choose an interviewer");
+      setError("Please select an interviewer");
       return;
     }
     setError("");
@@ -44,7 +44,8 @@ export default function Form(props) {
             value={name}
             onChange={event => {
               setName(event.target.value);
-            }}
+            }} 
+            data-testid="student-name-input"
           />
         </form>
         <section className="appointment__validation">{error}</section>
