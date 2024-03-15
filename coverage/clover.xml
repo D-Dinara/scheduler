@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1710535511414" clover="3.2.0">
-  <project timestamp="1710535511414" name="All files">
+<coverage generated="1710536264820" clover="3.2.0">
+  <project timestamp="1710536264820" name="All files">
     <metrics statements="117" coveredstatements="113" conditionals="65" coveredconditionals="61" methods="63" coveredmethods="61" elements="245" coveredelements="235" complexity="0" loc="117" ncloc="117" packages="5" files="19" classes="19"/>
     <package name="components">
       <metrics statements="23" coveredstatements="23" conditionals="6" coveredconditionals="6" methods="12" coveredmethods="12"/>
@@ -14,8 +14,8 @@
       </file>
       <file name="Button.js" path="/home/labber/lighthouse/react/scheduler/src/components/Button.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="43" type="stmt"/>
-        <line num="13" count="43" type="stmt"/>
+        <line num="8" count="49" type="stmt"/>
+        <line num="13" count="49" type="stmt"/>
       </file>
       <file name="DayList.js" path="/home/labber/lighthouse/react/scheduler/src/components/DayList.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
