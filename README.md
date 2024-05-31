@@ -32,8 +32,8 @@ To run the app locally:
 4. Create a database with the command `CREATE DATABASE scheduler_development;`.
 5. Copy the `.env.example` file to `.env.development` and fill in the necessary PostgreSQL configuration. 
 6. To seed the database:
-  Both of these achieve the same result.
-  - Make a `GET` request to `/api/debug/reset` with `curl http://localhost:8001/api/debug/reset`.
-  - Use the browser to navigate to `http://localhost:8001/api/debug/reset`.
+  - Both of these achieve the same result.
+    - Make a `GET` request to `/api/debug/reset` with `curl http://localhost:8001/api/debug/reset`.
+    - Use the browser to navigate to `http://localhost:8001/api/debug/reset`.
 7. Run both servers (`scheduler` and `scheduler-api`) in your terminal using the `npm start` command.
 8. Visit http://localhost:8000/ in your browser.
